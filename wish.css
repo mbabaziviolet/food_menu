@@ -1,0 +1,173 @@
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+
+}
+.wrapper{
+    
+    grid-template-columns: 250px 1fr ;
+    height: 200%;
+    
+
+}
+/*menu design*/
+#menu{
+    background: whitesmoke;
+}
+.brand-logo{
+     padding: 0 30px;
+}
+.brand-logo img{
+    width: 150px;
+    height: 150px;
+    margin-top: -20px;
+    margin-left: 40%;
+}
+.menu-item a{
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 8px 30px;
+    margin: 12px 0;
+    color: black;
+    font-weight: 300;
+    
+
+}
+.menu-item a:hover{
+    background: rgb(250,212,218);
+
+}
+#food-container{
+    background: whitesmoke;
+    overflow: scroll;
+    overflow-x: hidden;
+    box-sizing: content-box;
+}
+
+
+.heading{
+    text-align: center;
+    font-size: 3.5rem;
+    padding: 1rem;
+    color: #666;
+}
+.speciality .box-container{
+    display: flex;
+    gap: 1.5rem;
+
+}
+.speciality .box-container .box{
+    flex: 1 1 30rem;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0, .1);
+    border: 5px solid rgba(0,0,0, .3);
+    cursor: pointer;
+
+}
+.speciality .box-container .box .image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: -100%; left: 0;
+}
+.speciality .box-container .box .content{
+    text-align: center;
+    background: #fff;
+    padding: 2rem;
+
+}
+.speciality .box-container .box .content img{
+    margin: 1.5rem 0;
+}
+.speciality .box-container .box .content h3{
+    font-size: 2.5rem;
+    color: #333;
+}
+.speciality .box-container .box .content p{
+    font-size: 1.6rem;
+    color: #666;
+    padding: 1rem 0;
+}
+.speciality .box-container .box:hover .image{
+    top: 0;
+
+}
+.speciality .box-container .box:hover .content{
+    transform: translate(100%);
+
+}
+
+.popular .box-container{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+.popular .box-container .box{
+    padding: 2rem;
+    background: #fff;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0, .1);
+    border:5px solid rgba(0,0,0, .3);
+    text-align: center;
+    border-radius: .5rem;
+    flex: 1 1 30rem;
+    height: 70vh;
+
+}
+.popular .box-container .box img{
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: .5rem;
+}
+
+.popular .box-container .box .price{
+    position: relative;
+    top: 0rem; right: 4rem;
+    color: #fff;
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+
+}
+.btn{
+    display: inline-block;
+    background: white;
+    color: crimson;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+
+}
+.popular .box-container .box h3{
+    color: #333;
+    font-size: 2.5rem;
+    padding-top: 1rem;
+}
+.popular .box-container .box .stars i{
+    color: gold;
+    font-size: 1.7rem;
+    padding-top: 1rem .1rem;
+}
+
