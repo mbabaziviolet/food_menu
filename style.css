@@ -322,3 +322,54 @@ body{
     font-size: 25px;
     color: limegreen;
 }
+
+
+.card-1 {
+    display: flex;
+    background: url('dull2.jpeg');
+    
+    
+    
+    
+}
+
+.card-1 div {
+    padding: 10px;
+}
+
+.box-1 h1 {
+    color: #fff;
+    font-size: 25px;
+}
+
+.box-2 h1 {
+    color: #fff;
+    font-size: 25px;
+}
+
+.box-3 h1 {
+    color: #fff;
+    font-size: 25px;
+    margin-top: 40px;
+}
+
+.box-1 {
+    height: 20vh;
+    order: 2;
+    justify-content: space-between;
+    margin-left: 3%;
+}
+
+.box-2 li a {
+    display: block;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 8px 30px;
+    margin: 12px 0;
+    color: black;
+}
+
+.box-2 {
+    order: 2;
+    margin-left: 7%;
+}
